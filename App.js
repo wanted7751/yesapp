@@ -5,8 +5,10 @@ import { StyleSheet, Text, View } from "react-native";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/es/integration/react";
 import configureStore from "./redux/configureStore";
-const { persistor, store } = configureStore();
 import AppContainer from "./components/AppContainer";
+
+const { persistor, store } = configureStore();
+
 //second
 class App extends React.Component {
   state = {
