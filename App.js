@@ -7,7 +7,7 @@ import { PersistGate } from "redux-persist/es/integration/react";
 import configureStore from "./redux/configureStore";
 const { persistor, store } = configureStore();
 import AppContainer from "./components/AppContainer";
-
+//second
 class App extends React.Component {
   state = {
     isLoadingComplete: false
