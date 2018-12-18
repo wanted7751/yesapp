@@ -34,13 +34,13 @@ const LogInScreen = props => (
                 value={props.username}
                 onChangeText ={props.changeUsername}
                 
-                />
+         />
 
       <TextInput placeholder="password" 
                 style={styles.textInput} 
                 autoCapitalize={"none"}
                 secureTextEntry={true}
-                value={props.username}  
+                value={props.password}  
                 onChangeText = {props.changePassword}
                 returnKeyType={"send"}
                 onSubmitEditing={props.submit}
